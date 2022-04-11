@@ -17,7 +17,7 @@ export default function App() {
     } else if (bmi >=24.9 && bmi <34.9) {
       setMessage("You are slightly overweight! Your BMI is: " + bmi.toFixed(2))
     } else if (bmi >34.9) {
-      setMessage("Caution... Obesity! Seu IMC: " + bmi.toFixed(2))
+      setMessage("Caution... Obesity! Your BMI is: " + bmi.toFixed(2))
     }
   }
 
